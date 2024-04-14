@@ -11,7 +11,6 @@
   <project path="external/bash" name="android_external_bash" remote="cr-reload" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/expat" name="android_external_expat" remote="cr-resurrect" />
-  <project path="external/freetype" name="android_external_freetype" remote="cr-resurrect" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
   <project path="external/ImageMagick" name="android_external_ImageMagick" remote="cr-reload" />
   <project path="external/jemalloc" name="android_external_jemalloc" remote="cr-reload" />
