@@ -536,5 +536,6 @@
 
   <include name="snippets/cm.xml" />
   <include name="snippets/crdroid.xml" />
+  <include name="snippets/revived.xml" />
 
 </manifest>
