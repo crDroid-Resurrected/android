@@ -1,9 +1,9 @@
 <div align="center">
-<h1>crDroid Reloaded</h1>
+<h1>crDroid Resurrected</h1>
 </br>
-<strong><i> Legacy crDroid, reloaded with newer patches! </i></strong>
+<strong><i> Legacy crDroid, with the latest patches! </i></strong>
 </br>
-<i> As in its name, crDroid Reloaded is an upstreamed version of crDroid Nougat, one of the most customizable Lineage-based Nougat ROMs! </i>
+<i> crDroid Resurrected is a version of crDroid 3, a lightweight Lineage-based customizable ROM, that still has the latest 2024 security patches! </i>
 </br>
 
 Getting started
@@ -15,16 +15,19 @@ Credits
 -------
 - [**LineageOS**](https://github.com/LineageOS)
 - [**crDroid**](https://github.com/crdroidandroid)
+- [**crDroidReloaded**](https://github.com/crdroidreloaded)
+- [**LineageOS Revived**](https://github.com/lineageos-revived)
 *********
-<a href="https://twitter.com/WindowZ414">
-<img src="https://img.shields.io/badge/Developer-Twitter-blue?style=for-the-badge">
-</a>
 
 To initialize your local repository using your trees, use a command like this:  
 ```
-repo init --depth=1 -u git://github.com/crdroidreloaded/android.git -b 7.1
+repo init --depth=1 -u https://github.com/crdroid-resurrected/android.git -b 7.1 --git-lfs --depth=1
 ```
 Then to sync up:
+```
+repo sync -c -j$(echo 60) --force-sync --no-clone-bundle --no-repo-verify --no-tags --optimized-fetch
+```
+If you get HTTP errors, when repo finishes, just run
 ```
 repo sync
 ```
@@ -34,7 +37,6 @@ And to start build:
 lunch lineage_<devicecodename>-userdebug
 mka bacon
 ```
+You can also replace userdebug with eng for a debug build.
 
-Brought back to life by Beru Shinsetsu with <3.
-
-*This project is part of [Reloaded ROMs project](https://t.me/Reloaded_ROMs).*
+Brought back to life by Ella with <3.
