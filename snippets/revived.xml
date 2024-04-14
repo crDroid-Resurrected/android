@@ -12,6 +12,7 @@
   <project name="lin14-mGoms/android_external_flac" path="external/flac" />
   <remove-project name="platform/external/webp" />
   <project name="LineageOS-Revived/android_external_webp" path="external/webp" />
+  <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
   <remove-project name="LineageOS/android_external_libavc" />
   <project name="lin14-mGoms/android_external_libavc" path="external/libavc" />
   <remove-project name="LineageOS/android_external_libexif" />
