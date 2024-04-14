@@ -72,4 +72,5 @@
     <linkfile src="README" dest="external/chromium-webview/README" />
   </project>
   <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" clone-depth="1" revision="6d883cfe7f5f50470b29b21c26aa204205186a1a" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" clone-depth="1" revision="e92fc5c3f09f9cd2500ffbec01b164d72c7ba7e4" />
 </manifest>
