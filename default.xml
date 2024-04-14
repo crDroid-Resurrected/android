@@ -19,6 +19,12 @@
            sync-j="4"
            revision="refs/heads/7.1" />
 
+  <remote  name="cr-resurrect"
+           fetch="https://github.com/crDroid-Resurrected"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/7.1" />
+
   <remote  name="crdroid"
            fetch=".."
            sync-c="true"
