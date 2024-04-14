@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- crDroid additions -->
+  <project path="android" name="android" remote="cr-reload" />
+  <project path="build" name="android_build" remote="cr-reload" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="art" name="android_art" remote="cr-reload" />
+  <project path="bionic" name="android_bionic" remote="cr-reload" />
+  <project path="external/bash" name="android_external_bash" remote="cr-reload" />
+  <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
+  <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
+  <project path="external/freetype" name="android_external_freetype" remote="cr-reload" />
+  <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
+  <project path="external/ImageMagick" name="android_external_ImageMagick" remote="cr-reload" />
+  <project path="external/jemalloc" name="android_external_jemalloc" remote="cr-reload" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="cr-reload" />
+  <project path="external/libpng" name="android_external_libpng" remote="cr-reload" />
+  <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="cr-reload" />
+  <project path="external/mdnsresponder" name="crdroidandroid/android_external_mdnsresponder" remote="crdroid" />
+  <project path="external/skia" name="android_external_skia" remote="cr-reload" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="cr-reload" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cr-reload" />
+  <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
+  <project path="libcore" name="android_libcore" remote="cr-reload" />
+  <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="cr-reload" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cr-reload" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cr-reload" />
+  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
+  <project path="packages/apps/crDroidOTA" name="crdroidandroid/android_packages_apps_crDroidOTA" remote="crdroid" />
+  <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cr-reload" />
+  <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="cr-reload" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="cr-reload" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="cr-reload" />
+  <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
+  <project path="packages/apps/OmniSwitch" name="entony80/android_packages_apps_OmniSwitch-2" remote="github" revision="7.1" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cr-reload" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cr-reload" />
+  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/apps/SlimRecents" name="crdroidandroid/android_packages_apps_SlimRecents" remote="crdroid" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cr-reload" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cr-reload" />
+  <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cr-reload" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cr-reload" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="neobuddy89/arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" name="neobuddy89/arm-eabi-6.x" remote="bb" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.1" name="nathanchance/gcc-prebuilts" remote="github" revision="arm-linaro-7.x" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="BenzoRoms/arm-linux-androideabi-6.3" remote="github" revision="linaro" />
+  <project path="system/core" name="android_system_core" remote="cr-reload" />
+  <project path="system/extras" name="crdroidandroid/android_system_extras" remote="crdroid" />
+  <project path="system/media" name="android_system_media" remote="cr-reload" />
+  <project path="system/netd" name="android_system_netd" remote="cr-reload" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
+  <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
+  <project path="vendor/cm" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cr-reload" />
+  <project path="vendor/crDroidOTA-devices" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
+
+</manifest>
