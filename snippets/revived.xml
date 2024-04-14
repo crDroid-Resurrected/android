@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Security Patches -->
+  <remove-project name="LineageOS/android_external_aac" />
+  <project name="lin14-mGoms/android_external_aac" path="external/aac" revision="lineage-17.1" />
+  <remove-project name="LineageOS/android_external_boringssl" />
+  <project name="lin14-mGoms/android_external_boringssl" path="external/boringssl" />
+  <remove-project name="LineageOS/android_external_icu" />
+  <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
+  <remove-project name="LineageOS/android_external_flac" />
+  <project name="lin14-mGoms/android_external_flac" path="external/flac" />
+  <remove-project name="platform/external/webp" />
+  <project name="LineageOS-Revived/android_external_webp" path="external/webp" />
+  <remove-project name="LineageOS/android_external_libavc" />
+  <project name="lin14-mGoms/android_external_libavc" path="external/libavc" />
+  <remove-project name="LineageOS/android_external_libexif" />
+  <project name="lin14-mGoms/android_external_libexif" path="external/libexif" />
+  <remove-project name="LineageOS/android_external_libnfc-nci" />
+  <project name="lin14-mGoms/android_external_libnfc-nci" path="external/libnfc-nci" />
+  <remove-project name="LineageOS/android_external_libvpx" />
+  <project name="lin14-mGoms/android_external_libvpx" path="external/libvpx" />
+  <remove-project name="LineageOS/android_external_sonivox" />
+  <project name="lin14-mGoms/android_external_sonivox" path="external/sonivox" />
+  <remove-project name="LineageOS/android_external_tremolo" />
+  <project name="lin14-mGoms/android_external_tremolo" path="external/tremolo" />
+  <remove-project name="LineageOS/android_external_zlib" />
+  <project name="lin14-mGoms/android_external_zlib" path="external/zlib" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
+  <remove-project name="LineageOS/android_frameworks_minikin" />
+  <project name="LineageOS-Revived/android_frameworks_minikin" path="frameworks/minikin" />
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <project name="lin14-mGoms/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
+  <remove-project name="LineageOS/android_packages_apps_KeyChain" />
+  <project name="lin14-mGoms/android_packages_apps_KeyChain" path="packages/apps/KeyChain" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <project name="lin14-mGoms/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <project name="lin14-mGoms/android_packages_apps_TvSettings" path="packages/apps/TvSettings" />
+  <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
+  <project name="lin14-mGoms/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <project name="lin14-mGoms/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+  <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
+  <project name="lin14-mGoms/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
+  <remove-project name="platform/system/ca-certificates" />
+  <project name="lin14-mGoms/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
+
+  <!-- Upstreamed Repositories -->
+  <remove-project name="LineageOS/android_external_ffmpeg" />
+  <project name="lin14-mGoms/android_external_ffmpeg" path="external/ffmpeg" />
+  <remove-project name="LineageOS/android_external_iptables" />
+  <project name="lin14-mGoms/android_external_iptables" path="external/iptables" />
+  <remove-project name="LineageOS/android_external_sqlite" />
+  <project name="LineageOS-Revived/android_external_sqlite" path="external/sqlite" />
+  <remove-project name="LineageOS/android_external_v8" />
+  <project name="LineageOS-Revived/android_external_v8" path="external/v8" />
+
+  <!-- Forked Jelly Browser -->
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/Jelly" name="lin14-mGoms/android_packages_apps_Jelly" />
+
+  <!-- Webview -->
+  <remove-project name="LineageOS/android_external_chromium-webview" />
+  <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" revision="1c25993282a7d31bfac30d86c3e5f55df9dc0c06" >
+    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" clone-depth="1" revision="6d883cfe7f5f50470b29b21c26aa204205186a1a" />
+
+  <!-- Launcher -->
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+</manifest>
