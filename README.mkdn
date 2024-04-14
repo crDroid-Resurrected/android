@@ -21,7 +21,7 @@ Credits
 
 To initialize your local repository using your trees, use a command like this:  
 ```
-repo init --depth=1 -u https://github.com/crdroid-resurrected/android.git -b 7.1 --git-lfs --depth=1
+repo init -u https://github.com/crdroid-resurrected/android.git -b 7.1 --git-lfs --depth=1
 ```
 Then to sync up:
 ```
