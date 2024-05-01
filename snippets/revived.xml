@@ -59,6 +59,10 @@
   <project name="LineageOS-Revived/android_external_sqlite" path="external/sqlite" />
   <remove-project name="LineageOS/android_external_v8" />
   <project name="LineageOS-Revived/android_external_v8" path="external/v8" />
+  <remove-project name="LineageOS/android_hardware_libhardware" />
+  <project name="LineageOS-Revived/android_hardware_libhardware" path="hardware/libhardware" />
+  <remove-project name="LineageOS/android_hardware_ril" />
+  <project name="LineageOS-Revived/android_hardware_ril" path="hardware/ril" />
 
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
