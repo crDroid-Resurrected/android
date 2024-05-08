@@ -22,7 +22,7 @@
   <remove-project name="LineageOS/android_external_libvpx" />
   <project name="lin14-mGoms/android_external_libvpx" path="external/libvpx" />
   <remove-project name="LineageOS/android_external_sonivox" />
-  <project name="lin14-mGoms/android_external_sonivox" path="external/sonivox" />
+  <project name="LineageOS-Revived/android_external_sonivox" path="external/sonivox" />
   <remove-project name="LineageOS/android_external_tremolo" />
   <project name="lin14-mGoms/android_external_tremolo" path="external/tremolo" />
   <remove-project name="LineageOS/android_external_zlib" />
