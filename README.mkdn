@@ -40,7 +40,7 @@ cd crDroid
 Install Repo in the created directory
 
 ```bash
-repo init -u https://github.com/crDroid-Resurrected/android.git -b 13.0 --git-lfs
+repo init -u https://github.com/Vhmit/android.git -b 13.0 --git-lfs
 ```
 
 Let Repo take care of all the hard work
