@@ -36,7 +36,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="device/lineage/sepolicy" name="crDroid-Resurrected/android_device_crdroid_sepolicy" remote="crdroid" />
+  <project path="device/lineage/sepolicy" name="Vhmit/android_device_crdroid_sepolicy" remote="crdroid" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
@@ -64,7 +64,7 @@
   <project path="hardware/qcom-caf/sm8550/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="13.0-caf-sm8550" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid" />
-  <project path="frameworks/base" name="crDroid-Resurrected/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="frameworks/base" name="Vhmit/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/native" name="crDroid-Resurrected/android_frameworks_native" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
