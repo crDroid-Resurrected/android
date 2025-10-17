@@ -36,7 +36,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="device/lineage/sepolicy" name="crDroid-Resurrected/android_device_crdroid_sepolicy" remote="crdroid" />
+  <project path="device/lineage/sepolicy" name="crDroid-Resurrected/android_device_crdroid_sepolicy" remote="crdroidul" />
   <project path="device/qcom/sepolicy-legacy" name="crDroid-UL/android_device_qcom_sepolicy-legacy" remote="crdroidul" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
