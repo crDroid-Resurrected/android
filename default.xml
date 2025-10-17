@@ -24,7 +24,7 @@
            fetch="https://github.com/"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/13.0-UL" />
+           revision="refs/heads/13.0" />
 
     <remote  name="losul"
            fetch="https://github.com/"
