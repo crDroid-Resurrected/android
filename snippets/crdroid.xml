@@ -67,7 +67,7 @@
   <project path="frameworks/base" name="crDroid-Resurrected/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/native" name="crDroid-Resurrected/android_frameworks_native" groups="pdk" remote="crdroid" />
-  <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
+  <project path="frameworks/opt/telephony" name="crDroid-Resurrected/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" groups="pdk" remote="crdroid" />
 
   <project path="libcore" name="crDroid-Resurrected/android_libcore" groups="pdk" remote="crdroid" />
@@ -87,7 +87,7 @@
   <project path="packages/apps/LineageParts" name="crDroid-Resurrected/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crDroid-Resurrected/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/apps/Nfc" name="crdroidandroid/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="crdroid" />
+  <project path="packages/apps/Nfc" name="crDroid-Resurrected/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="crdroid" />
   <project path="packages/apps/ParallelSpace" name="crdroidandroid/android_packages_apps_ParallelSpace" remote="crdroid" />
   <project path="packages/apps/Settings" name="crDroid-Resurrected/android_packages_apps_Settings" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="crDroid-Resurrected/android_packages_apps_SetupWizard" remote="crdroid" />
