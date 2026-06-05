@@ -47,7 +47,7 @@
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
   <project path="external/libhevc" name="crdroidandroid/android_external_libhevc" groups="pdk" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crDroid-Resurrected/android_external_libjpeg-turbo" groups="pdk" remote="crdroid" />
-  <project path="external/libpng" name="crdroidandroid/android_external_libpng" groups="pdk" remote="crdroid" />
+  <project path="external/libpng" name="crDroid-Resurrected/android_external_libpng" groups="pdk" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" groups="pdk" remote="crdroid" />
   <project path="external/selinux" name="crdroidandroid/android_external_selinux" groups="pdk" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
